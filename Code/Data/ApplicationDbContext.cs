@@ -16,7 +16,7 @@ namespace NexaWorksTickets.Code.Data
         public DbSet<Os> Os { get; set; }
         public DbSet<VersionOs> VersionOs { get; set; }
         public DbSet<Status> Status { get; set; }
-        public DbSet<Ticket> Ticket { get; set; }
+        public DbSet<Ticket> Tickets { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
