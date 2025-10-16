@@ -1,5 +1,5 @@
 ﻿using NexaWorksTickets.Code.Data;
-using NexaWorksTickets.Models.Entities;
+using NexaWorksTickets.Code.Models.Entities;
 
 public static class DbInitializer
 {
