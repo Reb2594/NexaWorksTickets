@@ -12,7 +12,7 @@ Base de données pour la gestion de tickets (suivi de problèmes) des applicatio
 - Recherche de tickets par différents critères
 
 ## Structure de la base de données
-![MCD](https://github.com/Reb2594/NexaWorksTickets/blob/master/Mod%C3%A8le-entit%C3%A9-association.png)
+![MCD](https://github.com/Reb2594/NexaWorksTickets/blob/main/Documentation/Mod%C3%A8le-entit%C3%A9-association.png)
 
 La base de données est constituée des tables principales suivantes :
 - Products : Gestion des produits
