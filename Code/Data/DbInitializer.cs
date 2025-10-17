@@ -7,7 +7,7 @@ public static class DbInitializer
     {
         context.Database.EnsureCreated();
 
-        if (context.Ticket.Any())
+        if (context.Tickets.Any())
             return;
 
         var versionOsDict = context.VersionOs
@@ -244,7 +244,7 @@ public static class DbInitializer
             }
         };
 
-        context.Ticket.AddRange(tickets);
+        context.Tickets.AddRange(tickets);
         context.SaveChanges();
     }
 }
