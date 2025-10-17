@@ -27,11 +27,11 @@
 </Query>
 
 // Paramètres à modifier en fonction du résultat escompté
-int? productId = 2;                 // ex: 1 = Trader en Herbe, 2 = Maître des Investissements, 3 = Planificateur d'Entraînement, 4 = Planificateur d'Anxiété Sociale
+int? productId = null;                 // ex: 1 = Trader en Herbe, 2 = Maître des Investissements, 3 = Planificateur d'Entraînement, 4 = Planificateur d'Anxiété Sociale
 string? versionNumber = null;          // ex: "1.2"
-int? statusId = null;                     // 2 = en cours, 1 = résolu
-DateTime? startDate = new DateTime(2025, 2, 5);            // ex: new DateTime(2025, 1, 1)
-DateTime? endDate = new DateTime(2025, 7, 24);              // ex: new DateTime(2025, 9, 4)
+int? statusId = 2;                     // 2 = en cours, 1 = résolu
+DateTime? startDate = null;            // ex: new DateTime(2025, 1, 1)
+DateTime? endDate = null;              // ex: new DateTime(2025, 9, 4)
 string[] keyWords = null;			   //new [] { "utilisateur", "application" };
 
 // Requête de base
