@@ -31,8 +31,8 @@ La base de données est constituée des tables principales suivantes :
 
 ## Contenu du repository
 - Un diagramme décrivant les relations entre les différentes entités. (Voir ci-dessus)
-- `DbInitializer.cs` : Code pour l'initialisation de la base de données avec les données des 25 tickets à intégrer
-- `ApplicationDbContext.cs` : Configuration de la base de données
+- `Code\Data\DbInitializer.cs` : Code pour l'initialisation de la base de données avec les données des 25 tickets à intégrer
+- `Code\Data\ApplicationDbContext.cs` : Configuration de la base de données
 - `Tickets.linq` : Fichier contenant les requêtes optimisées pour récupérer les informations des tickets
 - Documentation des requêtes (Excel)
 
